@@ -22,21 +22,25 @@ body {
     justify-content: space-between;
 }
 
+
 ul {
     display: flex;
 }
 
-li {
+li img{
     padding: 0 20px;
     text-transform: capitalize;
     color: #f34519;
     font-size: 18px;
+    width: 100px;
+    height: auto;
 }
 
 li a {
     font-size: 18px;
     color: #f34519;
     text-transform: capitalize;
+    padding: 5px;
 }
 
 .swiper {
